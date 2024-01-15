@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Forms.CSS">
+    <script src="Script.JS"></script>
+</head>
+<body>
+    <form class="form" action="./" method="get">
+        <div class="secondary-background">
+            <div class="form_input">
+                <br><br><label for="GivenName" id="label-1" class="form_label">Name:</label>
+                <input type="text" name="GivenName" id="GivenName" placeholder="Enter Your Name" onblur="OnBlurCheckName()"><br><br>
+            </div>
+            <div class="form_input">
+                <label for="GivenEmail" id ="label-2" class="form_label">Email:</label>
+                <input type="email" name="GivenEmail" id="GivenEmail" placeholder="Enter Your Email"><br><br>
+            </div>
+            <div class="form_input">
+                <label for="GivenCardNum" id="label-3" class="form_label">Card:</label>
+                <input type="password" name="GivenCardNum" id="GivenCardNum" placeholder="Enter a Proxy Credit Card Number." onblur="onBlurCheckCard()"><br><br>
+            </div>
+            <div class='form_input'>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </div>
+
+        
+        
+    </form>
+    
+</body>
+</html>
